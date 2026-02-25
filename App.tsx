@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Datas, Imagens, Icones } from './Detalhes';
 import { CoisasFundo } from './components/Fundo';
 import { Espaço } from './components/Fundoinicial';
-import { Heart, ChevronDown, Sparkles} from 'lucide-react';
+import { Heart, ChevronDown, Sparkles } from 'lucide-react';
 import { MorphingText } from './components/Morfar';
 import { Confetti, type ConfettiRef } from "./components/Confetes";
 import { Particles } from "./components/ParticulasEstelar";
@@ -190,7 +190,6 @@ const App: React.FC = () => {
         <div className="max-w-5xl mx-auto relative">
           <Particles className="absolute inset-0 z-0" quantity={200} size={0.4} color="#ffffffff" />
           <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-yellow-200/40 via-yellow-100/40 to-transparent hidden md:block" />
-
           <div className="space-y-32">
             <Particles className="absolute inset-0 z-0" quantity={200} size={0.4} color="#ffffffff" />
             {Datas.map((item, idx) => (
@@ -233,6 +232,11 @@ const App: React.FC = () => {
               Eu te amo, Momo
             </TextAnimate>
           </h2>
+          <h3 className="font-space font-bold leading-tight text-red-300 drop-shadow-2xl px-4">
+            <TextAnimate animation="slideLeft" by="character" delay={5}>
+              Obrigado por tudo, meu amor. Você é a melhor coisa que já me aconteceu e eu sou eternamente grato por isso.
+            </TextAnimate>
+          </h3>
         </div>
       </section>
     </div>
