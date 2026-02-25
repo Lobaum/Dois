@@ -10,16 +10,25 @@ const Sapo: React.FC<{ delay: number; top: string; duration: number; size: strin
       animationDelay: `${delay}s`
     }}
   >
-    <img src="./assets/sapo2.png" alt="Sapo" className="w-40"/>
-    <style>{`
-      @keyframes voar {
-        from { transform: translateX(-10vw) translateY(0) rotate(0deg); }
-        25% { transform: translateX(20vw) translateY(-20px) rotate(10deg); }
-        50% { transform: translateX(50vw) translateY(0) rotate(0deg); }
-        75% { transform: translateX(80vw) translateY(20px) rotate(-10deg); }
-        to { transform: translateX(115vw) translateY(0) rotate(0deg); }
-      }
-    `}</style>
+    <img src="/assets/sapo2.png" alt="Sapo" className="w-40 relative z-10" style={{ animation: "flutuar 4s ease-in-out infinite, girar 8s linear infinite",}}/>
+    <style>
+      {`
+        @keyframes voar {
+          0% { transform: translateX(-20vw); }
+          100% { transform: translateX(120vw); }
+        }
+
+        @keyframes flutuar {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-20px); }
+        }
+
+        @keyframes girar {
+          0% { rotate: 0deg; }
+          100% { rotate: 360deg; }
+        }
+      `}
+    </style>
   </div>
 );
 
@@ -28,11 +37,7 @@ export const Espaço: React.FC = () => {
   return (
     <div className="fixed inset-0 overflow-hidden pointer-events-none z-0" >
       <Sapo top="10%" delay={0} duration={25} size="2.0rem" />
-
-      <div className="absolute top-0 left-0 w-full h-full border-[1px] border-indigo-500/5 m-10 rounded-[3.5rem] pointer-events-none" />
-      <div className="absolute top-1/3 left-8 w-px h-64 bg-gradient-to-b from-transparent via-indigo-500/10 to-transparent" />
-      <div className="absolute bottom-1/3 right-8 w-px h-64 bg-gradient-to-b from-transparent via-fuchsia-500/10 to-transparent" />
-
+      
       {[...Array(30)].map((_, i) => (
         <div
           key={i}
