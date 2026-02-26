@@ -8,6 +8,7 @@ export default defineConfig({
     host: "0.0.0.0",
   },
   plugins: [react()],
+  base: "/Dois/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "."),
