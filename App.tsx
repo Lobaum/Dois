@@ -11,7 +11,6 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { Iphone } from './components/AAACERULAEUTEQUEBRO';
 import { TextAnimate } from './components/animacaotexto';
 import { BlurFade } from "./components/animacaofoto";
-import { Highlighter } from "./components/marcacao";
 
 const App: React.FC = () => {
   const [showContent, setShowContent] = useState(false);
@@ -97,7 +96,7 @@ const App: React.FC = () => {
           <div className="relative group">
             <div className="absolute -inset-8 bg-gradient-to-tr from-blue-900 to-blue-300 rounded-[3rem] blur-3xl group-hover:opacity-100 opacity-60 transition-opacity" />
             <BlurFade delay={0.25} inView>
-              <Iphone src="/assets/juntos.png" />
+              <Iphone src="/assets/Juntos.png" />
             </BlurFade>
           </div>
         </div>
