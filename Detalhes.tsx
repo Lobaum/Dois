@@ -47,14 +47,14 @@ export const Datas: LinhadoTempo[] = [
 ];
 
 export const Imagens: ImagensTops[] = [
-  { url: '/assets/image.jpg', caption: 'Você e a meme (sorriso lindo da gota)' },
-  { url: '/assets/IMG-20260207-WA0045.jpg', caption: 'Essa gótica aqui, slk 🥵' },
-  { url: '/assets/IMG-20260131-WA0104.jpg', caption: 'Minha pitchulinha 🥹🥹' },
-  { url: '/assets/IMG-20260102-WA0002.jpg', caption: 'Minha foto favorita, eu sinto mt felicidade quando vejo ela' },
-  { url: '/assets/IMG-20260101-WA0003.jpg', caption: 'Vc tava uma graçinha de gojo' },
-  { url: '/assets/IMG-20260101-WA0031.jpg', caption: 'Gojo se embriagando' },
-  { url: '/assets/IMG-20251225-WA0040.jpg', caption: 'Você de gorrinho ❤️' },
-  { url: '/assets/IMG-20251214-WA0002.jpg', caption: 'Perfeita demais, meu Deus' }
+  { url: '/images/image.jpg', caption: 'Você e a meme (sorriso lindo da gota)' },
+  { url: '/images/IMG-20260207-WA0045.jpg', caption: 'Essa gótica aqui, slk 🥵' },
+  { url: '/images/IMG-20260131-WA0104.jpg', caption: 'Minha pitchulinha 🥹🥹' },
+  { url: '/images/IMG-20260102-WA0002.jpg', caption: 'Minha foto favorita, eu sinto mt felicidade quando vejo ela' },
+  { url: '/images/IMG-20260101-WA0003.jpg', caption: 'Vc tava uma graçinha de gojo' },
+  { url: '/images/IMG-20260101-WA0031.jpg', caption: 'Gojo se embriagando' },
+  { url: '/images/IMG-20251225-WA0040.jpg', caption: 'Você de gorrinho ❤️' },
+  { url: '/images/IMG-20251214-WA0002.jpg', caption: 'Perfeita demais, meu Deus' }
 ];
 
 export const Icones = {
