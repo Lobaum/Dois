@@ -163,12 +163,12 @@ const App: React.FC = () => {
                 Obrigado por ser minha parceira de vida, minha melhor amiga, meu chicletinho, a sage da minha jett, minha momolada, o amor da minha vida.
                 Eu te amo tanto que nem sei se é possível dizer por palavras. EU TE AMO MUITO ❤️
               </p>
-              <img src="https://media.discordapp.net/attachments/907119033608990720/1474904029480882358/IMG-20260205-WA0059.jpg?ex=699b8aeb&is=699a396b&hm=06ee763255ef2a470eba607a6809316cb7450f3f5a63186d1f6f83ef27ef19ac&=&format=webp" className='rounded-2xl break-inside-avoid' />
+              <img src="/images/IMG-20260205-WA0059.jpg" className='rounded-2xl break-inside-avoid' />
             </div>
             <div className="bg-indigo-900/10 p-12 rounded-[2.5rem] border border-white/10 relative shadow-2xl backdrop-blur-2xl">
               <Sparkles className="absolute -top-6 -right-6 w-16 h-16 text-yellow-500 animate-pulse" />
               <div className="space-y-8">
-                <img src="https://media.discordapp.net/attachments/907119033608990720/1474977187022246089/SaveClip.App_625761193_1632559197916322_8953959686102164833_n.jpg?ex=699bcf0d&is=699a7d8d&hm=35ab6069eb84c7fc696a0e5cbb9aa7a49364c71a425f5c8e9d2842fc40a98a15&=&format=webp&width=567&height=1006"
+                <img src="/images/sage.png" alt="vc de sage"
                   className='rounded-2xl break-inside-avoid'
                 />
                 <DotLottieReact

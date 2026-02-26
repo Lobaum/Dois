@@ -10,7 +10,7 @@ const Sapo: React.FC<{ delay: number; top: string; duration: number; size: strin
       animationDelay: `${delay}s`
     }}
   >
-    <img src="/assets/sapo2.png" alt="Sapo" className="w-40 relative z-10" style={{ animation: "flutuar 4s ease-in-out infinite, girar 8s linear infinite",}}/>
+    <img src="/images/sapo2.png" alt="Sapo" className="w-40 relative z-10" style={{ animation: "flutuar 4s ease-in-out infinite, girar 8s linear infinite",}}/>
     <style>
       {`
         @keyframes voar {
