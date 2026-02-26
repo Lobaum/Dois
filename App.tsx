@@ -96,7 +96,7 @@ const App: React.FC = () => {
           <div className="relative group">
             <div className="absolute -inset-8 bg-gradient-to-tr from-blue-900 to-blue-300 rounded-[3rem] blur-3xl group-hover:opacity-100 opacity-60 transition-opacity" />
             <BlurFade delay={0.25} inView>
-              <Iphone src="/images/Juntos.png" />
+              <Iphone src="https://media.discordapp.net/attachments/907119033608990720/1474566015257153667/A7485370-8C5E-4474-8306-F70C98AB962E.png?ex=69a0e79e&is=699f961e&hm=28943b622ba4d5e150b9a904c378ee6ccb7ce8cad5a062cf6678352036d89f22&=&format=webp&quality=lossless" />
             </BlurFade>
           </div>
         </div>
