@@ -96,7 +96,7 @@ const App: React.FC = () => {
           <div className="relative group">
             <div className="absolute -inset-8 bg-gradient-to-tr from-blue-900 to-blue-300 rounded-[3rem] blur-3xl group-hover:opacity-100 opacity-60 transition-opacity" />
             <BlurFade delay={0.25} inView>
-              <Iphone src="/assets/Juntos.png" />
+              <Iphone src="/images/Juntos.png" />
             </BlurFade>
           </div>
         </div>

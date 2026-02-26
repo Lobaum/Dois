@@ -47,14 +47,14 @@ export const Datas: LinhadoTempo[] = [
 ];
 
 export const Imagens: ImagensTops[] = [
-  { url: 'https://media.discordapp.net/attachments/907119033608990720/1447986828513640583/image.png?ex=69a11c12&is=699fca92&hm=1a3817fa1ffea5590a6d46c19650565800f57c2645bd76bc5eab08076549d757&=&format=webp&quality=lossless', caption: 'Você e a meme (sorriso lindo da gota)' },
-  { url: 'https://media.discordapp.net/attachments/907119033608990720/1474904029204189205/IMG-20260207-WA0045.jpg?ex=69a0d0ea&is=699f7f6a&hm=df6aa9bd96349ac69bb2ef59f9519082159f2db508643c7350f4e85d9ff36993&=&format=webp&width=507&height=902', caption: 'Essa gótica aqui, slk 🥵' },
-  { url: 'https://media.discordapp.net/attachments/907119033608990720/1474904029900570635/IMG-20260131-WA0104.jpg?ex=69a0d0eb&is=699f7f6b&hm=777b36a7dc6bd8d63c64c5f2e751cb4d3ed7e1eed4d10bf78a9c1775a00698d5&=&format=webp&width=507&height=902', caption: 'Minha pitchulinha 🥹🥹' },
-  { url: 'https://media.discordapp.net/attachments/907119033608990720/1474904030261018804/IMG-20260102-WA0002.jpg?ex=69a0d0eb&is=699f7f6b&hm=adaedd95ce6dcff10dcc09533947982e6b1ecfa20bf6be438928c5ac09e5ff7d&=&format=webp&width=676&height=902', caption: 'Minha foto favorita, eu sinto mt felicidade quando vejo ela' },
-  { url: 'https://media.discordapp.net/attachments/907119033608990720/1474904187740360821/IMG-20260101-WA0003.jpg?ex=69a0d110&is=699f7f90&hm=36c2dfb04831884229e9d792ff5d772475f6555b6794762e6fd2d32495f85505&=&format=webp&width=507&height=902', caption: 'Vc tava uma graçinha de gojo' },
-  { url: 'https://media.discordapp.net/attachments/907119033608990720/1474904030655545516/IMG-20260101-WA0031.jpg?ex=69a0d0eb&is=699f7f6b&hm=0fe702a9a80461d5f187bab36b544a50f63a327a6cdeec376e838d64e9f924fc&=&format=webp&width=507&height=901', caption: 'Gojo se embriagando' },
-  { url: 'https://media.discordapp.net/attachments/907119033608990720/1474904188185088262/IMG-20251225-WA0040.jpg?ex=69a0d110&is=699f7f90&hm=cd0b813b27eed583e1fefe406e1ead670b714921f27f08adfb81ef4144458822&=&format=webp&width=676&height=902', caption: 'Você de gorrinho ❤️' },
-  { url: 'https://media.discordapp.net/attachments/907119033608990720/1474904188868628742/IMG-20251214-WA0002.jpg?ex=69a0d111&is=699f7f91&hm=908066522747e630db35e36304d330f150729801b13df6a008e1b2cab0299c1a&=&format=webp', caption: 'Perfeita demais, meu Deus' }
+  { url: '/images/image.jpg', caption: 'Você e a meme (sorriso lindo da gota)' },
+  { url: '/images/IMG-20260207-WA0045.jpg', caption: 'Essa gótica aqui, slk 🥵' },
+  { url: '/images/IMG-20260131-WA0104.jpg', caption: 'Minha pitchulinha 🥹🥹' },
+  { url: '/images/IMG-20260102-WA0002.jpg', caption: 'Minha foto favorita, eu sinto mt felicidade quando vejo ela' },
+  { url: '/images/IMG-20260101-WA0003.jpg', caption: 'Vc tava uma graçinha de gojo' },
+  { url: '/images/IMG-20260101-WA0031.jpg', caption: 'Gojo se embriagando' },
+  { url: '/images/IMG-20251225-WA0040.jpg', caption: 'Você de gorrinho ❤️' },
+  { url: '/images/IMG-20251214-WA0002.jpg', caption: 'Perfeita demais, meu Deus' }
 ];
 
 export const Icones = {
