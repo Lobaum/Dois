@@ -47,7 +47,7 @@ export const Datas: LinhadoTempo[] = [
 ];
 
 export const Imagens: ImagensTops[] = [
-  { url: '/images/image.jpg', caption: 'Você e a meme (sorriso lindo da gota)' },
+  { url: '/images/image.png', caption: 'Você e a meme (sorriso lindo da gota)' },
   { url: '/images/IMG-20260207-WA0045.jpg', caption: 'Essa gótica aqui, slk 🥵' },
   { url: '/images/IMG-20260131-WA0104.jpg', caption: 'Minha pitchulinha 🥹🥹' },
   { url: '/images/IMG-20260102-WA0002.jpg', caption: 'Minha foto favorita, eu sinto mt felicidade quando vejo ela' },

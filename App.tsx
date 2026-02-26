@@ -168,7 +168,7 @@ const App: React.FC = () => {
             <div className="bg-indigo-900/10 p-12 rounded-[2.5rem] border border-white/10 relative shadow-2xl backdrop-blur-2xl">
               <Sparkles className="absolute -top-6 -right-6 w-16 h-16 text-yellow-500 animate-pulse" />
               <div className="space-y-8">
-                <img src="/images/sage.png" alt="vc de sage"
+                <img src="/images/sage.jpg" alt="vc de sage"
                   className='rounded-2xl break-inside-avoid'
                 />
                 <DotLottieReact
